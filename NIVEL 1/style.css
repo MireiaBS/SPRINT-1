@@ -64,6 +64,22 @@ footer {
     grid-template-columns: 1fr 4fr 1fr;        
 }
 
+@media (max-width: 600px) {       /* Versió Tablet*/
+
+    section {
+        background-color: rgba(255, 217, 0, 0.993);
+        flex-direction: column;
+    }
+    
+    .article1 {
+        margin-bottom: 20px;
+        width:100%;
+    }
+
+    .article2 {
+        width:100%;
+    }
+}
 .divorange {
     background-color: rgb(231, 115, 38);
 }
