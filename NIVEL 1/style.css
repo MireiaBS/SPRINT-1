@@ -80,6 +80,16 @@ footer {
         width:100%;
     }
 }
+
+@media (max-width: 320px) {       /* Versió Mobile */
+
+    .divblue {
+        flex-direction: column;
+        grid-template-columns: none;
+    }
+    
+}
+
 .divorange {
     background-color: rgb(231, 115, 38);
 }
