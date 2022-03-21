@@ -11,6 +11,17 @@ header {
     background-size:auto;
     background: no repeat center fixed 
 }
+.btnnav {    
+    display: flex;
+    align-content: center;
+}
+
+.btnnav:hover {
+    
+    color: rgb(83, 66, 177);
+    background-color: rgba(197, 166, 233, 0.603);
+    border-radius: 7px; 
+}
 
 .titolnav {
     height: 2.5cm;   
@@ -23,6 +34,7 @@ header {
     opacity: 0.4;    
 }
 
+
 nav {
     margin-bottom: 20px;
     padding: 20px; 
@@ -30,7 +42,7 @@ nav {
 .nav2 {
     text-align: center;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight:200;
     color:rgb(156, 151, 151);    
